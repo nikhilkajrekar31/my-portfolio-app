@@ -1,0 +1,230 @@
+.header-color{
+  background: #833ab4;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #fcb045, #fd1d1d, #833ab4);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #fcb045, #fd1d1d, #833ab4); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.home-grid{
+  background: #833ab4;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #fcb045, #fd1d1d, #833ab4);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #fcb045, #fd1d1d, #833ab4); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  text-align: center;
+  /* position: fixed; */
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.blog-grid{
+  display: flex;
+}
+
+.avatar-img{
+  height:250px;
+  padding-top:5em;
+}
+
+.banner-text{
+  background-color: black;
+  opacity: .8;
+  width: 75%;
+  margin: auto;
+  border-radius: 10px;
+}
+
+.banner-text h1{
+  font-size: 50px;
+  font-weight: bold;
+  color: white;
+}
+
+.banner-text h2{
+  font-size: 20px;
+  font-weight: bold;
+  color: white;
+}
+
+.banner-text hr{
+  border-top: 5px dotted white;
+  width: 50%;
+  margin: auto;
+}
+
+.banner-text p{
+  color: white;
+  font-size: 20px;
+  padding: 1em;
+}
+
+.social-links {
+  display: flex;
+  justify-content: space-between;
+  width: 50%;
+  margin: auto;
+}
+
+.social-links i{
+  color: white;
+  font-size: 5em;
+  padding: 8px;
+}
+
+.contact-body{
+  background: #833ab4;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #fcb045, #fd1d1d, #833ab4);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #fcb045, #fd1d1d, #833ab4); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  margin: auto;
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  justify-content: center;
+  padding-top: 2em;
+}
+
+.contact-grid{
+  border-radius: 10px;
+  text-align: center;
+  justify-content: center;
+  width: 80%;
+  height: 550px;
+  background: white;
+  opacity: 0.8;
+  color:black;
+  margin-bottom: 20px;
+}
+
+.contact-grid h2{
+  font-family: 'Anton', sans-serif;
+  color: #800000;
+}
+
+.contact-grid p{
+  font-family: 'Oxygen', sans-serif;
+  font-weight: bold;
+}
+
+.contact-grid hr{
+  border-top: 5px dotted black;
+  width: 50%;
+  margin: auto;
+}
+
+.contact-list i{
+  font-size: 40px;
+  padding-right: 3rem;
+}
+
+.aboutme-body{
+  background: #833ab4;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #fcb045, #fd1d1d, #833ab4);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #fcb045, #fd1d1d, #833ab4); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  margin: auto;
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  justify-content: center;
+  padding-top: 2em;
+}
+
+.aboutme-grid {
+  border-radius: 10px;
+  opacity: 0.8;
+  text-align: center;
+  justify-content: center;
+  width: 80%;
+  height: 550px;
+  background: white;
+  color:black;
+  margin-bottom: 20px;
+}
+
+.cell-2 p{
+  font-family: 'Anton', sans-serif;
+  font-size: 30px;
+}
+
+.typed-js{
+  font-family: 'Oxygen', sans-serif;
+  font-size: 30px;
+}
+
+.aboutme-grid hr{
+  width: 50%;
+  margin: auto;
+}
+
+.aboutme-list i{
+  font-size: 40px;
+  padding-right: 3rem;
+  padding-left: 12rem;
+}
+
+.resume-grid{
+  background: #833ab4;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #fcb045, #fd1d1d, #833ab4);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #fcb045, #fd1d1d, #833ab4); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  margin: auto;
+  width: 100%;
+  height: 100%;
+  justify-content: center;
+  padding-top: 2em;
+}
+
+.resume-col{
+  border-radius: 10px;
+  opacity: 0.8;
+  background: white;
+  height:100%;
+  width: 80%;
+}
+
+.resume-col h2{
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+  font-size: 20px;
+  padding-left: 2.5em;
+  margin: auto;
+}
+
+.resume-col table{
+  padding-left: 3em;
+}
+
+.resume-col hr{
+  margin: auto;
+}
+
+.education-table tr td:nth-child(2){
+  text-align: left;
+  font-weight: bold;
+}
+
+.courses-table tr td:first-child{
+  font-weight: bold;
+}
+
+.courses-table tr:nth-child(even) {
+  background-color: #EBD0CA;
+}
+
+.resume-col span{
+  font-weight: bold;
+}
+
+.skills-table tr:nth-child(even){
+  background-color: #EBD0CA;
+}
+
+.skills-table tr td:first-child{
+  font-weight: bold;
+}
+
+.resume-col p{
+  /*padding-left: 3em;*/
+  margin:auto;
+}
+
+.download-button{
+  position: relative;
+  left: 50%;
+}
